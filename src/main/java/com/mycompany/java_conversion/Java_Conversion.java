@@ -14,10 +14,22 @@ import java.util.Scanner;
 public class Java_Conversion {
 
     public static void main(String[] args) {
-        ArrayList<Player> players = new ArrayList<Player>();
+        
         displayInfo();
         
-        preload();
+        ArrayList<Player> players = new ArrayList<Player>();
+        
+        Player player1 = new Player("Shiva", 45);
+        Player player2 = new Player("Tyler", 30);
+        Player player3 = new Player("Fluffy", 36);
+        Player player4 = new Player("Odin", 100);
+        Player player5 = new Player("Tinsil", 85);
+        
+        players.add(player1);
+        players.add(player2);
+        players.add(player3);
+        players.add(player4);
+        players.add(player5);
         
         Scanner scanner = new Scanner(System.in);
         
@@ -84,19 +96,4 @@ public class Java_Conversion {
                 "4 - Add Player");
     }
     
-    public static void preload(){
-        Player player1 = new Player("Shiva", 45);
-        Player player2 = new Player("Tyler", 30);
-        Player player3 = new Player("Fluffy", 36);
-        Player player4 = new Player("Odin", 100);
-        Player player5 = new Player("Tinsil", 85);
-        
-        players.Add(player1);
-        players.Add(player2);
-        players.Add(player3);
-        players.Add(player4);
-        players.Add(player5);
-        
-
-    }
 }

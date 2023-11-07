@@ -43,7 +43,7 @@ public class Player {
     //Methods
     @Override
     public String toString() {
-        return "Name - " + _name + "Number - " + _number ; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
+        return "Name - " + _name + " Number - " + _number ; // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/OverriddenMethodBody
     }
 
     
